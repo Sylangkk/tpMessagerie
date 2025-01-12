@@ -1,0 +1,50 @@
+/* Conteneur principal */
+.conteneur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+}
+
+/* Style pour l'affichage */
+.affichage {
+  width: 50%;
+  min-width: 400px;
+  height: 200px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+/* Style du textarea */
+#clavier {
+  resize: vertical;
+  overflow: auto;
+  width: 50%;
+  min-width: 400px;
+}
+
+/* Style pour le bouton et le titre */
+h1, #ajouter {
+  margin: 10px auto;
+}
+
+/* Style pour les messages */
+.texte {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2px;
+}
+
+.droite {
+  border: 1px solid #00FF00;
+  background-color: #AAFFAA;
+  margin-left: 100px;
+}
+
+.gauche {
+  border: 1px solid #0000FF;
+  background-color: #AAAAFF;
+  margin-right: 100px;
+}
